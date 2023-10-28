@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Croissant+One&family=Nunito:wght@500&family=Playfair+Display&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script language="JavaScript">
+        function Tinhtien() {
+        var sl = parseFloat(document.getElementById("sl").value);
+        var dg = parseFloat(document.getElementById("dg").value);
+        window.document.getElementById("tt").value = sl * dg;
+        }
+        
+       </script>
+</head>
+<style>
+    #headertr{
+    background-color:rgb(255, 128, 0);
+    width:15%;
+    height:100px;
+    float:left;
+}
+#header{
+    background-color:rgb(255, 128, 0);
+    width:70%;
+    height:100px;
+    float:left;
+}
+#headertr{
+    background-color:rgb(255, 128, 0);
+    width:15%;
+    height:100px;
+    float:left;
+}
+#header{
+    background-color:rgb(255, 129, 3);
+    width:70%;
+    height:100px;
+    float:left;
+}
+#header a {
+    text-decoration: none; /* Loại bỏ gạch chân mặc định cho liên kết */
+    margin: 0 9px; /* Khoảng cách giữa các liên kết */
+    transition: font-weight 0.1s ease; /* Hiệu ứng chuyển đổi mượt mà */
+    color:rgb(9, 9, 3);
+    font-family: 'Croissant One', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#header a:hover {
+    font-weight: bold; /* Đổi chữ thành đậm khi rê chuột vào */
+}
+
+#header p{
+    font-size:20px;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#headerph{
+    background-color:rgb(255, 128, 0);
+    width:15%;
+    height:100px;
+    float:left;
+}
+
+
+.tb{
+    font-family: 'Croissant One', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    float:right;
+}
+input[type="text"]{
+    font-size:20px;
+    padding:3px;
+    width:500px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    outline:none;
+}
+button[type="timkiem"]{
+    font-size:18px;
+    padding:3px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    outline:none;
+    height: 31px;
+    background-color:rgb(18, 18, 18);
+    color:#ffffff;
+}
+#conten1{
+    background-color:rgb(243, 235, 235);
+    width:20%;
+    height:700px;
+    float:left;
+}
+#conten{
+    background-color:rgb(255, 255, 255);
+    width:25%;
+    height:700px;
+    float:left;
+}
+#conten img {
+    padding:10px;
+}
+#conten a {
+    font-size:20px;
+}
+#conten a1 {
+    font-size:20px;
+    float:right;
+}
+#contenp{
+    background-color:rgb(255, 255, 255);
+    width:35%;
+    height:700px;
+    float:left;
+}
+#contenp p{
+    font-family: 'AR One Sans', sans-serif;
+font-family: 'Croissant One', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-size:20px;
+}
+#contenp a{
+    color:red;
+}
+#contenp c{
+    font-size:20px;
+    
+}
+
+#conten2{
+    background-color:rgb(243, 235, 235);
+    width:20%;
+    height:700px;
+    float:left;
+}
+button[type="giamgia"]{
+    font-size:13px;
+    padding:3px;
+    border:1px solid #e28317;
+    border-radius: 1px;
+    outline:none;
+    height: 20px;
+    background-color:rgb(255, 255, 255);
+    color:#ffffff;
+}
+button[type="size"]{
+    font-size:13px;
+    border:1px solid #ffaa00;
+    background-color:rgb(255, 255, 255);
+    color:rgb(255, 132, 0);
+}
+button[type="size"]{
+    font-size:20px;
+    padding: 1px 30px;
+    border:1px solid #0a0a0a;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+
+}
+input[type="text"]{
+    width:30%;
+    font-size:14px;
+    border:1px solid #c7b2b2;
+    background-color:rgb(255, 255, 255);
+    color:rgb(255, 132, 0);
+}
+
+button[type="giohang"]{
+    font-size:20px;
+    padding: 10px 50px;
+    border:1px solid #ffaa00;
+    background-color:rgb(255, 255, 255);
+    color:rgb(255, 132, 0);
+}
+button[type="muangay"]{
+    font-size:20px;
+    padding: 10px 50px;
+    border:1px solid #ffaa00;
+    background-color:rgb(255, 153, 0);
+    color:rgb(255, 255, 255);
+}
+
+#ctr{
+    background-color:rgb(243, 235, 235);
+    width:20%;
+    height:2500px;
+    float:left;
+}
+#c{
+    background-color:rgb(255, 255, 255);
+    width:60%;
+    height:2500px;
+    float:left;
+}
+#cph{
+    background-color:rgb(243, 235, 235);
+    width:20%;
+    height:2500px;
+    float:left;
+}
+.danhmucfl{
+    display: inline-block;
+    padding:1px;
+    border: 1px solid #e4750d;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 150px; /* Đặt chiều rộng của khung */
+    height: 210px; /* Đặt chiều cao của khung */
+    overflow: hidden; /* Ẩn phần hình ảnh nằm ngoài khung */
+    color:#e28317;
+}
+
+.sphomnay{
+    display: inline-block;
+    padding:1px;
+    border: 1px solid #b7afaf;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    width: 163px; /* Đặt chiều rộng của khung */
+    height: 260px; /* Đặt chiều cao của khung */
+    overflow: hidden; /* Ẩn phần hình ảnh nằm ngoài khung */
+}
+.sphomnay p1{
+    color:red;
+}
+
+/*code kiếm trên mạng chưa mò*/
+.sphomnay {
+    position: relative;
+  }
+
+  .sphomnay a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .sphomnay:hover::after {
+    content: "Tìm sản phẩm tương tự";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(233, 136, 0);
+    padding: 6px;
+    border: 1px solid #ccc;
+    z-index: 3;
+  }
+  #footer{
+    background-color:rgb(0, 0, 0);
+    width:100%;
+    height:3px;
+    float:left;
+}
+</style>
+<body>
+    <div id="headertr"></div>
+
+    <div id="header">
+        <a href="tri.html">Trang Chủ</a>     
+        <a href="uudai.html">Ưu Đãi</a>
+        <a href="thongbao.html">Thông Báo</a>
+        
+        <a href="dangki.html" class="tb">Đăng Kí</a>
+        <i class="tb">/</i>
+        <a href="dangnhap.html" class="tb">Đăng Nhập</a>
+        <a href="hotro.html" class="tb">Hổ Trợ</a>
+        
+            <p>
+                <a href="tri.html">
+                <i class="fa-brands fa-shopify">PhucTriVy</i>
+                </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Tìm sản phẩm...">
+                <button type="timkiem"><i class="fa-solid fa-magnifying-glass"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="giohang.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </p>
+    </div>
+    <div id="headerph"></div>
+
+    <div id="conten1"></div>
+    <div id="conten">
+        <img width="350" height="350" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f">
+        <img width="60" height="70" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f">
+        <img width="60" height="70" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f">
+        <img width="60" height="70" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f">    
+        <img width="60" height="70" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f">
+        <a>Chia sẻ: <i class="fa-brands fa-facebook"></i>  <i class="fa-brands fa-facebook-messenger"></i>  <i class="fa-brands fa-instagram"></i> </a>
+        <a1>| Đã thích <i class="fa-regular fa-heart">&nbsp;&nbsp;&nbsp;&nbsp;</i></a1>
+    </div>
+    <div id="contenp">
+        <p>Giày sneaker AF1 trắng vạch nâu Hot trend nam nữ, Giày FORCE 1 trắng nâu dùng đi học,tập gym 1995</p>
+        <a>4.5 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> | &nbsp; 80 Đánh Giá &nbsp; | &nbsp; 1,2k Đã Bán</a><br/><br/><br/>
+        <a><del>₫40.000 - ₫199.000</del>&nbsp;&nbsp; </a> <c> ₫25.000 - ₫125.000</c> &nbsp;&nbsp; <button type="giamgia"><a>38% GIẢM</a></button><br/><br/><br/>
+        <a1>Mã Giảm Giá &nbsp;&nbsp;&nbsp;&nbsp; Giảm ₫5k &nbsp;&nbsp;&nbsp;&nbsp; Giảm ₫10k</a1><br/><br/><br/>
+        <a1>Combo Khuyến Mãi <button type="giam">Mua 3 & giảm 10%</button></a1><br/><br/><br/>
+        <a1>Bảo Hiểm &nbsp;&nbsp;&nbsp; Bảo hiểm Thời trang &nbsp;&nbsp;&nbsp; <a href="#">Tìm hiểu thêm</a></a1><br/><br/><br/>
+        <a1>Màu: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="70" height="50" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="70" height="50" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="70" height="50" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf29nkej1itm9f"></a1><br/><br/><br/>
+        <a1>Size: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="size">40</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="size">41</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="size">42</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="size">44</button></a1><br/><br/><br/>
+        <form method="post">
+             <input type="text" id="dg" name="dongia" placeholder="Nhập đơn giá" />
+             <input type="text" id="sl" name="soluong" placeholder="Nhập số lượng" onKeyUp="Tinhtien();" />
+             <input type="text" id="tt" name="tien" placeholder="Tổng tiền" /><br/><br/><br/><br/>
+        </form>
+            <button type="giohang"><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+            <button type="muangay" id="muangaynha">Mua ngay</button>
+
+    </div>
+    <div id="conten2"></div>
+
+    <div id="ctr"></div>
+    <div id="c">
+        <center>
+        <h3>Combo khuyến mãi <button>Giảm giá 10%</button></h3>
+        <div class="danhmucfl">
+            <img width="150px" height="150" src="https://down-vn.img.susercontent.com/file/sg-11134201-23010-kondioox4vmvf0">
+            <p>Giày sneaker AF1 trắng vạch nâu Hot trend nam nữ</p>
+        </div>
+        <div class="danhmucfl">
+            <img width="150px" height="150" src="https://down-vn.img.susercontent.com/file/sg-11134201-23010-kondioox4vmvf0">
+            <p>Giày sneaker AF1 trắng vạch nâu Hot trend nam nữ</p>
+        </div>
+        <div class="danhmucfl">
+            <img width="150px" height="150" src="https://down-vn.img.susercontent.com/file/sg-11134201-23010-kondioox4vmvf0">
+            <p>Giày sneaker AF1 trắng vạch nâu Hot trend nam nữ</p>
+        </div>
+        <div class="danhmucfl">
+            <img width="150px" height="150" src="https://down-vn.img.susercontent.com/file/sg-11134201-23010-kondioox4vmvf0">
+            <p>Giày sneaker AF1 trắng vạch nâu Hot trend nam nữ</p>
+        </div>
+        <div class="danhmucfl">
+            <img width="150px" height="150" src="https://down-vn.img.susercontent.com/file/sg-11134201-23010-kondioox4vmvf0">
+            <p>Giày sneaker AF1 trắng vạch nâu Hot trend nam nữ</p>
+        </div>
+        </center>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h4>Chi tiết sản phẩm</h4>
+        <p>MÔ TẢ SẢN PHẨM<br/>
+            ✔️𝐇𝐚̀𝐧𝐠 𝐛𝐞̂𝐧 𝐦𝐢̀𝐧𝐡 𝐛𝐚́𝐧 𝐫𝐞̉ 𝐧𝐞̂𝐧 𝐤𝐡𝐨̂𝐧𝐠 𝐛𝐨𝐱(𝐡𝐨̣̂𝐩).𝐀𝐞 𝐧𝐚̀𝐨 𝐦𝐮𝐨̂́𝐧 𝐦𝐮𝐚 𝐭𝐡𝐞̂𝐦 𝐡𝐨̣̂𝐩 𝐯𝐚̀𝐨 𝐦𝐮𝐚 𝐤𝐞̀𝐦 𝐝𝐞𝐚𝐥 𝐬𝐨̂́𝐜 𝐦𝐮𝐚 𝐭𝐡𝐞̂𝐦 𝐛𝐨𝐱(𝐡𝐨̣̂𝐩) 𝐠𝐢𝐮́𝐩 𝐦𝐢̀𝐧𝐡 𝐧𝐡𝐞́<br/>
+            THÔNG TIN SẢN PHẨM <br/>
+            ✔️ Kiểu dáng hot trend của năm nay và còn kéo dài trong những năm tiếp theo. <br/>
+            ✔️ Giày đẹp, nhẹ, bền. Giá phải chăng phù hợp với các bạn học sinh, sinh viên. Có thể làm giày đôi, giày nhóm. Thích hợp đi chơi, du lịch, chạy bộ, gym, đi học, đi làm...<br/> 
+            ✔️ Dễ phối đồ, có thể kết hợp với váy, jeans, sooc…. Phù hợp với mọi thời tiết từ đông sang hè. <br/>
+            ✔️ Chất liệu: Da cao cấp mềm mại, kết hợp vải sợi thoáng khí bền đẹp theo thời gian <br/>
+            ✔️ Đế giày được làm bằng chất liệu cao su đúc nguyên khối chắc chắn có khắc họa tiết để tăng độ ma sát, chống trơn trượt,tăng chiều cao, nhẹ, êm, cân bằng và thoáng khí <br/>
+            ---------------------------------------------<br/>
+            HƯỚNG DẪN BẢO QUẢN <br/>
+            ✔️ Để giày ở nơi khô ráo thoáng mát để giữ giày được bền đẹp hơn<br/>
+            ✔️ Vệ sinh giày, dùng khăn hay bàn trải lông mềm để chải sạch giày cùng với nước tẩy rửa giày chuyên dụng với da hay da Pu<br/>
+            ✔️ Có thể giặt giày cùng với chất tẩy rửa nhẹ<br/>
+            ---------------------------------------------<br/>
+            ❌ KHUYẾN CÁO<br/>
+            ⛔ Không dùng hóa chất hay bột giặt có hoạt tính tẩy rửa mạnh<br/>
+            ⛔ Không dùng bàn chải cứng để vệ sinh giày sẽ làm hư <br/>
+            ⛔ Không đi mưa ngâm nước lâu, không phơi giày trực tiếp dưới ngoài trời nắng gắt<br/>
+            --------------------------------------------------<br/>
+            💥SHOP CAM KẾT:<br/>
+            ✔ Sản phẩm chuẩn 100% như hình <br/>
+            ✔ Giao hàng trên toàn quốc 99 <br/>
+            ----------------------------------------------<br/>
+            CHÍNH SÁCH BẢO HÀNH:<br/>
+            - Hàng không giống mô tả shop hoàn lại tiền 100%<br/>
+            - Hàng lỗi do nhà sản xuất hỗ trợ miễn phí đổi mới ngay lập tức<br/>
+            - Hỗ trợ đổi size khi không đi vừa<br/>
+            <br/>
+             Không tiếp nhận hoàn hàng đối với các trường hợp <br/>
+            - Đối với sản phẩm đã sử dụng gây hư hỏng<br/>
+            - Qúa thời hạn tiếp nhận xử lý dưới 7 ngày<br/>
+            - Hàng mang không hợp với bạn <br/>
+            <br/>
+            -Về sản phẩm: Shop cam kết về chất lượng tốt nhất cho khách hàng<br/>
+            -Về giá cả : Shop nhập với số lượng nhiều và trực tiếp nên chi phí sẽ là rẻ nhất nhé.<br/>
+            -Về dịch vụ: Shop có đội ngũ tư vấn 24/24 và sẽ cố gắng trả lời hết những thắc mắc xoay quanh sản phẩm nhé. <br/>
+            -Thời gian chuẩn bị hàng: Hàng luôn có sẵn, thời gian chuẩn bị tối ưu nhất<br/>
+            MỌI THẮC MẮC CÙNG NHƯ ĐKY LÀM CTV XIN LIÊN HỆ :<br/>
+            - sdt/zl:  0977.399.221<br/>
+            #giaynam #giaythethaonam #giaynamnu #giaythethaogiare #giaysnesker #giaysneakernam #giaynamhot #giaynamgiare #giaynammoi #giaythethaonamdep #giaythoitrang #giaythoitrangnam #giaymreng #mreng #giaynamgiatot #giaynamthethao #giaythethaohot #giaythethaonamhot #giaythethao #giaynam #giaynu #giayfullbox #giaythethaonamnu #giayulzzang #giayhocsinh #giaysinhvien  #sneaker #freeship #fullbox #giaynamnu #giaygiare #ulzzang #giaysneaker</p>
+
+           
+            <center><h1><img src="https://api.products.aspose.app/slides/api/Common/DownloadFile/2d646add-0729-4b2a-83e4-008e58a7f395?file=result.gif"></h1></center>
+
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-23020-vjlynkwhuvnv2f">
+                <p>Đồng hồ OLEVS 6607 thể thao chống nước</p>
+                <p1>₫450.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lk6j04oxlybmdc">
+                <p>[Mã FADEP0610 giảm 10K đơn 99K] Áo Sơ Mi</p>
+                <p1>₫950.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 8,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-23020-l2xolls5bdnvd1">
+                <p>Áo Thun Bóng Đá Tay Ngắn Màu Trắng </p>
+                <p1>₫750.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-23020-vjlynkwhuvnv2f">
+                <p>Đồng hồ OLEVS 6607 thể thao chống nước</p>
+                <p1>₫450.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+    
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-yt31lovxk7hv87">
+                <p>Áo Dạ Tweed Dáng Ngắn , Áo Khoác...</p>
+                <p1>₫250.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-ll26vj6j4lp95c">
+                <p>Giày thể thao Guci Sơn Tùng - Hải Tú</p>
+                <p1>₫550.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 9,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lk6j04oxlybmdc">
+                <p>[Mã FADEP0610 giảm 10K đơn 99K] Áo Sơ Mi</p>
+                <p1>₫950.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 8,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-23020-l2xolls5bdnvd1">
+                <p>Áo Thun Bóng Đá Tay Ngắn Màu Trắng </p>
+                <p1>₫750.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-23020-vjlynkwhuvnv2f">
+                <p>Đồng hồ OLEVS 6607 thể thao chống nước</p>
+                <p1>₫450.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+    
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-yt31lovxk7hv87">
+                <p>Áo Dạ Tweed Dáng Ngắn , Áo Khoác...</p>
+                <p1>₫250.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-ll26vj6j4lp95c">
+                <p>Giày thể thao Guci Sơn Tùng - Hải Tú</p>
+                <p1>₫550.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 9,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lk6j04oxlybmdc">
+                <p>[Mã FADEP0610 giảm 10K đơn 99K] Áo Sơ Mi</p>
+                <p1>₫950.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 8,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-23020-l2xolls5bdnvd1">
+                <p>Áo Thun Bóng Đá Tay Ngắn Màu Trắng </p>
+                <p1>₫750.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-23020-vjlynkwhuvnv2f">
+                <p>Đồng hồ OLEVS 6607 thể thao chống nước</p>
+                <p1>₫450.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+    
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-yt31lovxk7hv87">
+                <p>Áo Dạ Tweed Dáng Ngắn , Áo Khoác...</p>
+                <p1>₫250.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-ll26vj6j4lp95c">
+                <p>Giày thể thao Guci Sơn Tùng - Hải Tú</p>
+                <p1>₫550.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 9,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lk6j04oxlybmdc">
+                <p>[Mã FADEP0610 giảm 10K đơn 99K] Áo Sơ Mi</p>
+                <p1>₫950.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 8,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-23020-l2xolls5bdnvd1">
+                <p>Áo Thun Bóng Đá Tay Ngắn Màu Trắng </p>
+                <p1>₫750.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/vn-11134201-23020-vjlynkwhuvnv2f">
+                <p>Đồng hồ OLEVS 6607 thể thao chống nước</p>
+                <p1>₫450.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+    
+            <div class="sphomnay">
+                <img width="163" height="170" src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-yt31lovxk7hv87">
+                <p>Áo Dạ Tweed Dáng Ngắn , Áo Khoác...</p>
+                <p1>₫250.000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bán 2,8k<p1>
+            </div>
+            
+    </div>
+    <div id="cph"></div>
+
+    <div id="footer"></div>
+    <div id="footercuoi">
+        <h4>SMinhTri - GÌ CŨNG CÓ, MUA HẾT Ở SMinhTri</h4>
+        <p>SMinhTri - ứng dụng mua sắm trực tuyến thú vị, tin cậy, an toàn và miễn phí! SMinhTri là nền tảng giao dịch trực tuyến hàng đầu ở Đông Nam Á, có trụ sở chính ở Singapore, đã có mặt ở khắp các khu vực Singapore, Malaysia, Indonesia, Thái Lan, Philippines, Đài Loan, Brazil, México & Colombia. Với sự đảm bảo của Shopee, bạn sẽ mua hàng trực tuyến an tâm và nhanh chóng hơn bao giờ hết!</p>
+        <h4>MUA SẮM VÀ BÁN HÀNG ONLINE ĐƠN GIẢN, NHANH CHÓNG VÀ AN TOÀN</h4>
+        <p>Nếu bạn đang tìm kiếm một trang web để mua và bán hàng trực tuyến thì Shopee.vn là một sự lựa chọn tuyệt vời dành cho bạn. Shopee là trang thương mại điện tử cho phép người mua và người bán tương tác và trao đổi dễ dàng thông tin về sản phẩm và chương trình khuyến mãi của shop. Do đó, việc mua bán trên Shopee trở nên nhanh chóng và đơn giản hơn. Bạn có thể trò chuyện trực tiếp với nhà bán hàng để hỏi trực tiếp về mặt hàng cần mua. Còn nếu bạn muốn tìm mua những dòng sản phẩm chính hãng, uy tín, Shopee Mall chính là sự lựa chọn lí tưởng dành cho bạn. Để bạn có thể dễ dàng khi tìm hiểu và sử dụng sản phẩm, Shopee Blog - trang blog thông tin chính thức của Shopee - sẽ giúp bạn có thể tìm được cho mình các kiến thức về xu hướng thời trang, review công nghệ, mẹo làm đẹp, tin tức tiêu dùng và deal giá tốt bất ngờ.
+           Đến với Shopee, cơ hội để trở thành một nhà bán hàng dễ dàng hơn bao giờ hết. Chỉ với vài thao tác trên ứng dụng, bạn đã có thể đăng bán ngay những sản phẩm của mình. Không những thế, các nhà bán hàng có thể tự tạo chương trình khuyến mãi trên Shopee để thu hút người mua với những sản phẩm có mức giá hấp dẫn. Khi đăng nhập tại Shopee Kênh người bán, bạn có thể dễ dàng phân loại sản phẩm, theo dõi đơn hàng, chăm sóc khách hàng và cập nhập ngay các hoạt động của shop.
+           Bên cạnh đó, Shopee hợp tác với nhiều đơn vị vận chuyển uy tín trên thị trường như SPX Express,... nhằm cung cấp dịch vu giao nhận và vận chuyển tiện lợi cho cả khách hàng và người bán. Cùng với nhiều ưu đãi với chi phí giao hàng hợp lý, Shopee đảm bảo cho khách hàng trải nghiệm mua sắm thuận tiện nhất.</p>
+        <h4>TẢI ỨNG DỤNG SMinhTri NGAY ĐỂ MUA BÁN ONLINE MỌI LÚC, MỌI NƠI</h4>
+        <p>Ưu điểm của ứng dụng Shopee là cho phép bạn mua và bán hàng mọi lúc, mọi nơi. Bạn có thể tải ứng dụng Shopee cũng như đăng sản phẩm bán hàng một cách nhanh chóng và tiện lợi. Ngoài ra, ứng dụng Shopee còn có những ưu điểm sau:
+            Giao diện thân thiện, đơn giản, dễ sử dụng. Bạn sẽ dễ dàng thấy được ngay những sản phẩm nổi bật cũng như dễ dàng tìm đến các ô tìm kiếm, giỏ hàng hoặc tính năng chat liền tay.
+            Ứng dụng tích hợp công nghệ quản lý đơn mua và bán hàng tiện lợi trên cùng một tài khoản. Bạn sẽ vừa là người mua hàng, vừa là người bán hàng rất linh hoạt, dễ dàng.
+            Cập nhập thông tin khuyến mãi, Shopee Flash Sale nhanh chóng và liên tục.
+            Tại Shopee, bạn có thể lưu các mã giảm giá, Voucher Xtra và mã miễn phí vận chuyển toàn quốc. Bên cạnh đó, Shopee cũng sẽ có những chiến dịch khuyến mãi lớn hằng năm như Sale 2.2, Sale 3.3, Sale 4.4, Sale 5.5, Sale 6.6, Sale 7.7, Sale 8.8, Sale 9.9, Sale 10.10, Sale 11.11, Sale Sinh Nhật 12.12; Khuyến Mãi Tết thả ga săn sale quà Tết chất lượng. Đây là thời điểm để người mua hàng có thể nhanh tay chọn ngay cho mình những mặt hàng ưa thích với mức giá giảm kỉ lục. Ngoài ra, bạn còn có thể thỏa thích săn sale vào các ngày trong tháng như Sale giữa tháng và Sale cuối tháng đón lương về, hoặc đón xem Shopee Live để săn hàng ngàn deal hời giá sốc. </p>
+        <h4>MUA HÀNG HIỆU CAO CẤP GIÁ TỐT TẠI SMinhTri </h4>
+        <p>Bên cạnh Shopee Premium, Shopee còn có rất nhiều khuyến mãi khủng cho hàng hiệu giảm đến 50%. Cộng với mã giao hàng miễn phí, Shopee cũng có các mã giảm giá được phân phối mỗi tháng từ rất nhiều gian hàng chính hãng tham gia chương trình khuyến mãi này. Bên cạnh đó, Shopee còn tập hợp rất nhiều thương hiệu đình đám được các nhà bán lẻ uy tín phân phối bán trên Shopee, top sản phẩm hot deal cho bạn săn sale luôn cập nhật mỗi giờ, mỗi ngày, đem đến cho bạn sự lựa chọn đa dạng, từ các hãng mỹ phẩm nổi tiếng hàng đầu như Kiehl's, MAC, Foreo, SK-II, Estee Lauder,... Đến những thương hiệu công nghệ nổi tiếng như: camera hành trình Gopro, máy ảnh Fuifilm, webcam Hikvision, máy đọc sách Kindle,... Tại Shopee, bạn có thể dễ dàng tìm thấy các thương hiệu giày thể thao phổ biến hiện nay như: New Balance, Nike, Vans, Crocs,...  </p>
+    </div>
+    
+    
+</body>
+</html>
